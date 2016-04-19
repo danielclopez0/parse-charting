@@ -1,0 +1,30 @@
+{
+  "name": "parse-charting",
+  "version": "1.0.0",
+  "description": "Data visualization using parse-server, node, express, mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielclopez0/parse-charting.git"
+  },
+  "keywords": [
+    "parse",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "danLopez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.11.x",
+    "parse": "~1.8.0",
+    "parse-server": "~2.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/danielclopez0/parse-charting/issues"
+  },
+  "homepage": "https://github.com/danielclopez0/parse-charting#readme"
+}
