@@ -1,0 +1,31 @@
+/* make sure we clear the fixed navbar */
+body {padding-top: 70px;}
+
+/* Navigation */
+.navbar {
+  background-color: rgb(51,122,183);
+}
+.navbar a {
+  color: #d8e6f3;
+}
+.navbar a:hover {
+  color: #fff;
+}
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav .open>a, 
+.nav .open>a:focus, 
+.nav .open>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  background-color: #204d74;
+  color: #fff;
+}
+.navbar-toggle .icon-bar {
+  background-color: #d8e6f3;
+}
+@media only screen and (max-width: 768px) {
+  .dropdown-menu>li>a {
+    color: #d8e6f3;
+  }
+}

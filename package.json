@@ -4,7 +4,8 @@
   "description": "Data visualization using parse-server, node, express, mongodb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,20 @@
   "dependencies": {
     "express": "~4.11.x",
     "parse": "~1.8.0",
-    "parse-server": "~2.2.2"
+    "parse-server": "~2.2.2",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-router": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.16.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
   },
   "bugs": {
     "url": "https://github.com/danielclopez0/parse-charting/issues"
